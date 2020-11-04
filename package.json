@@ -22,7 +22,6 @@
 	],
 	"scripts": {
 		"bootstrap": "lerna bootstrap --hoist",
-		"postinstall": "npm run bootstrap",
 		"clean": "lerna run clean",
 		"build": "lerna run build",
 		"dev": "lerna run dev",
